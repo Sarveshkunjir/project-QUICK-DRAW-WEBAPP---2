@@ -1,0 +1,39 @@
+#time{
+    font-size:26px;
+    float: right;
+    margin-right: 30px;
+}
+#score{
+    float: left;
+    margin-left: 30px;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    color: burlywood;
+    background-color: cadetblue;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 10px 10px 100px yellow;
+    }
+    to{
+        box-shadow: 10px 10px 100px brown;
+    }
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
